@@ -1,0 +1,15 @@
+<div>
+    <h6>
+        Choose the sequence of the Fibonnaci number and hit submit:
+    </h6>
+    <p>
+        <input type="number" [(ngModel)]=fibNumSeq min="1">
+        <button (click)=computeFibNum()>Submit</button>
+     </p>
+     <p>
+        <output>
+            Your result: {{ fibResult }}
+        </output> 
+     </p>
+</div>
+
