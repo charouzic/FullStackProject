@@ -8,5 +8,6 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  // test comment
   title = 'AngularAPIApp';
 }
