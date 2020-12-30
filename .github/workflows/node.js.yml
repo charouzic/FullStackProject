@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Angular Full CI
         uses: colbyhill21/angular-full-ci/@v1.0
-        with:
-          working-directory: ./AngularAPIApp  
+        with: 
           testcommand: run test:ci
           mocha: true
+          working-directory: ./AngularAPIApp   
