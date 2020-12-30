@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - "stable"
-
+on:
+  push:
+    branches: [main]
 addons:
   chrome: stable
   
