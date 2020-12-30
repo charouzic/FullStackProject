@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - working-directory: AnngularAPIApp
       - uses: actions/checkout@v2
       - name: Angular Full CI
         uses: colbyhill21/angular-full-ci/@v1.0
         with:
+          working-directory: AngularAPIApp  
           testcommand: run test:ci
           mocha: true
