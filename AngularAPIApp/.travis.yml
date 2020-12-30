@@ -1,10 +1,5 @@
 language: node_js
 node_js:
-  - '14'
-cache: yarn
+  - "stable"
 script:
-  - echo 'Build starts!!'
-  - echo 'Installing Deps!'
-  - yarn
-  - echo 'Testing!'
-  - npm run test:main
+  - npm run build
