@@ -13,6 +13,8 @@ export class ComputeComponent  implements OnInit {
   apiUrl: string = 'http://localhost:5000/compute/';
   constructor(private http: HttpClient) {}
 
+
+  // function calling the API endpoint based on users input
   computeFibNum() {
     if (this.fibNumSeq > 0)
     {
