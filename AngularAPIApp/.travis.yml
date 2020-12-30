@@ -1,5 +1,17 @@
 language: node_js
 node_js:
-  - "stable"
+  - "14.1"
+
+addons:
+  chrome: stable
+  
+before_script:
+  - yarn global add @angular/cli
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
 script:
-  - npm run build
+  - ng build
