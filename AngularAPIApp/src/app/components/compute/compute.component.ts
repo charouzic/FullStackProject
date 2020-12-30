@@ -11,7 +11,7 @@ export class ComputeComponent  implements OnInit {
   fibNumSeq: number;
   fibResult: number;
   apiUrl: string = 'http://localhost:5000/compute/';
-  // constructor
+  
   constructor(private http: HttpClient) {}
 
 
