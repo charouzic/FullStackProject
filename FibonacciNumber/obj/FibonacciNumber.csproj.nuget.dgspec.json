@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/viki/Desktop/c#/interview/FibonacciNumber/FibonacciNumber.csproj": {}
+    "/Users/viki/Desktop/coding/interview/FullStackApp_github/FibonacciNumber/FibonacciNumber.csproj": {}
   },
   "projects": {
-    "/Users/viki/Desktop/c#/interview/FibonacciNumber/FibonacciNumber.csproj": {
+    "/Users/viki/Desktop/coding/interview/FullStackApp_github/FibonacciNumber/FibonacciNumber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/viki/Desktop/c#/interview/FibonacciNumber/FibonacciNumber.csproj",
+        "projectUniqueName": "/Users/viki/Desktop/coding/interview/FullStackApp_github/FibonacciNumber/FibonacciNumber.csproj",
         "projectName": "FibonacciNumber",
-        "projectPath": "/Users/viki/Desktop/c#/interview/FibonacciNumber/FibonacciNumber.csproj",
+        "projectPath": "/Users/viki/Desktop/coding/interview/FullStackApp_github/FibonacciNumber/FibonacciNumber.csproj",
         "packagesPath": "/Users/viki/.nuget/packages/",
-        "outputPath": "/Users/viki/Desktop/c#/interview/FibonacciNumber/obj/",
+        "outputPath": "/Users/viki/Desktop/coding/interview/FullStackApp_github/FibonacciNumber/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
