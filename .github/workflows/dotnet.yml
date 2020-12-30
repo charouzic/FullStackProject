@@ -3,8 +3,8 @@ name: dotnet CI
 on:
   push:
     branches: [ main ]
-    #paths: 
-    #- 'FibonacciNumber/**'
+    paths: 
+    - 'FibonacciNumber/**'
   pull_request:
     branches: [ main ]
 
