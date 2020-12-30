@@ -21,4 +21,4 @@ import { ComputeComponent} from './components/compute/compute.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
