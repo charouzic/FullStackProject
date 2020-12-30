@@ -7,7 +7,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-// comment
+
 export class AppComponent {
   title = 'AngularAPIApp';
 }
