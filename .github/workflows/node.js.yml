@@ -7,7 +7,7 @@ on:
   push:
     branches: [ main ]
     paths: 
-    - './AngularAPIApp'
+    - 'AngularAPIApp/**'
     
   pull_request:
     branches: [ main ]
