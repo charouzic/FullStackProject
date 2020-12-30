@@ -9,6 +9,5 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 })
 // comment
 export class AppComponent {
-  // test comment - addition
   title = 'AngularAPIApp';
 }
