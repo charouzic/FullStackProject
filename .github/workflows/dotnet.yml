@@ -3,6 +3,8 @@ name: dotnet CI
 on:
   push:
     branches: [ main ]
+    #paths: 
+    #- 'FibonacciNumber/**'
   pull_request:
     branches: [ main ]
 
@@ -18,8 +20,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 5.0
+      #with:
+        #dotnet-version: 5.0
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
