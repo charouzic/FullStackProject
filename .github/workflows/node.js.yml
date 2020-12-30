@@ -19,6 +19,6 @@ jobs:
       - name: Angular Full CI
         uses: colbyhill21/angular-full-ci/@v1.0
         with:
-          working-directory: AngularAPIApp  
+          working-directory: ./AngularAPIApp  
           testcommand: run test:ci
           mocha: true
