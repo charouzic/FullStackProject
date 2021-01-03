@@ -1,4 +1,4 @@
-# Movinn Interview Task
+# Web App for getting Fibonacci Number
 
 ## Table of Contents
 * [General Info](#general-info)
