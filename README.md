@@ -6,6 +6,7 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Further Steps](#further-steps)
+* [TODO](#todo)
 
 ## General Info
 This repository contains a fullstack app. Backend is written in C# .NET Core and creates REST API endpoints. 
@@ -70,3 +71,7 @@ Endpoints:
  
  ## Further Steps
 The main focus was put on the endpoint GET /compute/n and its implementation in Angular hence the other endpoints are created but their behaviour is not 100% correct. Also the project is missing database which could be used for storing, deleting and retrieving the Fibonacci numbers. Once such database is connected, the endpoint /compute/n could be changed to first search in the database for the Fibonacci and afterwards (if the desired number is not there) compute its value - this saves the computational power used and makes the solution more effective. After all the endpoints are sucessfully designed, they can be implemented in the frontend as a further step so the application is complete. Last but not least there is a space for improvement in the user interface and design of the frontend which is plain HTML without any Bootstrap or CSS formatting. 
+
+## TODO
+- Fix the architecture especially of the back-end.
+- Do not call the API within component in Angular.
