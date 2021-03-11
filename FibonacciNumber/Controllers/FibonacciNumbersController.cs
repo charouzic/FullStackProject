@@ -20,7 +20,7 @@ namespace FibonacciNumber.Controllers
          [HttpGet("compute/{n}")]
          public ActionResult ComputeNumber(int n)
         {
-            if (n <= 0)
+            if (n < 0)
                 return StatusCode(402);
             var fibNumItem = _repository.CalculateFibonacciNumber(n);
             return Ok(fibNumItem);
