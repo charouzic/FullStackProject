@@ -33,15 +33,20 @@ namespace FibonacciNumber.Controllers
             return Ok(fibNumItems);
         }
         [HttpGet("fib_num/{n}")]
-         public ActionResult <FibonacciNumberObj> GetFibNumBySeq(int n)
+        public ActionResult <FibonacciNumberObj> GetFibNumBySeq(int n)
         {
+            if (n < 0)
+            {
+                return (StatusCode(204));
+            }
+
             var fibNum = _repository.GetFibNumBySeq(n);
             return Ok(fibNum);
         }
         [HttpPut("fib_num/{seq}_{val}")]
         // does check the correct input
         // needs to be fixed --> does not make changes to the list of fibonaccis
-         public ActionResult CreateRecord(int seq, int val)
+        public ActionResult CreateRecord(int seq, int val)
         {
              if (_repository.CheckRecordForSave(seq, val) == true)
                 {
@@ -52,9 +57,9 @@ namespace FibonacciNumber.Controllers
              else
                 return StatusCode(402);
         }
-         [HttpDelete("fib_num/{n}")]
-         public ActionResult DeleteFibNum(int n)
-         {
+        [HttpDelete("fib_num/{n}")]
+        public ActionResult DeleteFibNum(int n)
+        {
             var inRepo = _repository.GetFibNumBySeq(n);
             if(n == 0)
             {
@@ -62,6 +67,6 @@ namespace FibonacciNumber.Controllers
             }
             _repository.DeleteFibonacciRecord(n);
             return NoContent();
-         }
+        }
      }
  }
